@@ -1,4 +1,4 @@
 void main(){
 List<int> l = [100,20,3,200,50,30,200,10,200];
-l.where((element) => element == 200).forEach((e) => print(e));
+print(l.where((element) => element == 200).length);
 }
