@@ -1,0 +1,5 @@
+void main() {
+  Set<int> a = {1, 2, 3,4};
+  Set<int> b = {2, 3, 4,5};
+  print(a.difference(b));
+}
